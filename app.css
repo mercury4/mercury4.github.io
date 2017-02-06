@@ -1,0 +1,14 @@
+body {
+	background-color: #dddddd;
+}
+.app-panel {
+	margin: 40px;
+	width: 670px;
+}
+#code-alert {
+	display: none;
+}
+.price4product {
+	margin-left: 20px;
+	color:grey;
+}

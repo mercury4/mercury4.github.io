@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тест</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="app.css">
+	
+</head>
+<body>
+	
+	<div class="panel panel-default app-panel">
+  		<div class="panel-body">
+    		<h4>Продукт 1</h4>
+
+    		<div class="alert alert-warning" role="alert" id="code-alert"></div>
+    		<form type="post" action="https://flowxo.com/hooks/a/eggj4ebj" id="form">
+    		<div class="row">
+  				<div class="col-md-6">
+  					<div class="form-group" id="InputNameGroup">
+    					<label for="InputName">Имя</label>
+    					<input type="text" class="form-control input-lg" id="InputName" required="required" form="form" name="InputName">
+  					</div>
+  				</div>
+  				<span class="glyphicon form-control-feedback"></span>
+  				<div class="col-md-6">
+  					<div class="form-group" id="InputEmailGroup">
+    					<label for="InputEmail">Email</label>
+    					<input type="email" class="form-control input-lg" id="InputEmail" required="required" form="form" name="InputEmail">
+  					</div>
+
+  				</div>
+  				<input type="text" name="InputCode" id="InputCode" class="hide">
+  				<input type="text" name="PriceGood1" id="PriceGood1" class="hide">
+  				<input type="text" name="PriceGood2" id="PriceGood2" class="hide">
+  				<input type="text" name="PriceGood3" id="PriceGood3" class="hide">
+			</div>
+
+			<div class="checkbox input-lg ">
+  				<label><input type="checkbox" value="good1" class="goodscheckbox" form="form" name="good1">Продукт 1</label><span id="price4product1" class="price4product">1 0000 Р</span>
+  			</div>
+  			<div class="checkbox input-lg">
+  				<label><input type="checkbox" value="good2" class="goodscheckbox" form="form" name="good2">Продукт 2</label><span id="price4product2" class="price4product">5 000 Р</span>
+  			</div>
+  			<div class="checkbox input-lg">
+  				<label><input type="checkbox" value="good3" class="goodscheckbox" form="form" name="good3">Продукт 3</label><span id="price4product3" class="price4product">3 333 Р</span>
+			</div>
+
+			<div class="row">
+  				<div class="col-md-6">
+  					<button type="button" class="btn btn-success input-lg" id="ButtonSubmit">Заказать</button>
+  				</div>
+  				<div class="col-md-6">
+  					<div class="form-inline text-right">
+	  					<select class="form-control input-lg" id="SelectPromoCode">
+							<option value="code1">Код 1</option>
+							<option value="code2">Код 2</option>
+							<option value="code3">Код 3</option>
+						</select>
+						<button type="button" class="btn btn-primary input-lg" id="ButtonPromo">Применить</button>
+					</div>
+  				</div>
+  			</div>
+  			</form>
+  		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
