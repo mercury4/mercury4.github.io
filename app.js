@@ -121,8 +121,13 @@ $(function () {
 		}
 
 		if (FormValid == 1) {
-			$('#form').submit();
-			CodeAlert('Форма отправлена');	
+			$.post(
+				'https://flowxo.com/hooks/a/eggj4ebj', 
+				$( "#form" ).serialize(),
+				function( data ) {
+  					CodeAlert('Форма отправлена');	
+  				}	
+			);
  		}
 
 	}); //$('#ButtonSubmit').click(function() {
